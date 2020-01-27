@@ -40,7 +40,9 @@ const parsers = [
     target: "universal",
     replace: {
       // node v4 compatibility for @typescript-eslint/typescript-estree
-      "(!unique.includes(raw))": "(unique.indexOf(raw) === -1)"
+      "(!unique.includes(raw))": "(unique.indexOf(raw) === -1)",
+      // Lookback: See here https://github.com/nickmccurdy/prettier/blob/807cd97d87f4a1fc8ad34f5ef76eec60cdf0d011/scripts/build/config.js#L51
+      'require("@microsoft/typescript-etw")': "undefined"
     }
   },
   {
