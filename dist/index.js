@@ -74,7 +74,7 @@ var dependencies = {
   "postcss-selector-parser": "2.2.3",
   "postcss-values-parser": "1.5.0",
   "regexp-util": "1.2.2",
-  "remark-math": "1.0.4",
+  "remark-math": "2.0.1",
   "remark-parse": "5.0.0",
   "resolve": "1.5.0",
   "semver": "5.4.1",
